@@ -3,9 +3,9 @@ import 'package:flutter_assignment/w6-s1/EXERCISE-2/model/profile_tile_model.dar
 import 'data/profile_data.dart'; // Import the profile data.
 
 void main() {
-  runApp(const MaterialApp(
+  runApp(MaterialApp(
     debugShowCheckedModeBanner: false,
-   // home: ProfileApp(profileData: ronanProfile), // Pass the data object.
+    home: ProfileApp(profileData: ronanProfile), // Pass the data object.
   ));
 }
 
